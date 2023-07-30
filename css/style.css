@@ -1,0 +1,55 @@
+.icon-hover-primary:hover {
+  border-color: #3b71ca !important;
+  background-color: white !important;
+}
+
+.icon-hover-primary:hover i {
+  color: #3b71ca !important;
+}
+.icon-hover-danger:hover {
+  border-color: #dc4c64 !important;
+  background-color: white !important;
+}
+
+.icon-hover-danger:hover i {
+  color: #dc4c64 !important;
+}
+.nav-link{
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+.quantity-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.quantity-field {
+  text-align: center;
+  width: 50px;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.decrease-btn,
+.increase-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  color: #333;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.decrease-btn:hover,
+.increase-btn:hover {
+  background-color: #e0e0e0;
+}

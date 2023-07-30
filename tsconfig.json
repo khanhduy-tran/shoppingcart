@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "outDir": "js"
+    },
+    "include": [
+      "C:/xampp/htdocs/shoppingcart/**/*.ts"
+    ],
+    "exclude": ["js","css","font","lib","images"]
+  }
